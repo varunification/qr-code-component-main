@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+ margin: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    height: 400px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.barcode{
+  margin-top: 10px;
+  color: white;
+  height: 220px;
+  margin: 2px solid black;
+  background: url("./images/image-qr-code.png") no-repeat center center / contain;
+  
+  
+}
+.bartext{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-items: center;
+  margin: 2px solid black;
+  font-size: 15px;
+  
+
+}
